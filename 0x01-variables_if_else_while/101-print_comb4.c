@@ -12,20 +12,20 @@ int main(void)
 	i = 0;
 	j = 0;
 	k = 0;
-	while(i < 8)
+	while (i < 8)
 	{
 		j = 0;
-		while(j < 9)
+		while (j < 9)
 		{
 			k = 0;
-			while(k < 10)
+			while (k < 10)
 			{
-				if (i != j && j != k && i != k && i < j && j < k) 
+				if (i != j && j != k && i != k && i < j && j < k)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
-					if (i == 7 && j == 8 && k ==9)
+					if (i == 7 && j == 8 && k == 9)
 						break;
 					putchar(',');
 					putchar(' ');
