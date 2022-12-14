@@ -11,15 +11,13 @@ int main(void)
 
 	int long a, b, n;
 
-
 	a = 1;
 	b = 2;
-
-	printf("%d, %d", a, b);
+	printf("%ld, %ld", a, b);
 	for (c = 0; c < 48; c++)
 	{
 		n = a + b;
-		printf(", %d", n);
+		printf(", %ld", n);
 		a = b;
 		b = n;
 	}
