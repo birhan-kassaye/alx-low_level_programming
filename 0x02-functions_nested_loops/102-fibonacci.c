@@ -12,7 +12,7 @@ int main(void)
 	a = 1;
 	b = 2;
 	printf("%d, %d", a, b);
-	for (c = 1; c < 48; c++)
+	for (c = 1; c < 49; c++)
 	{
 		n = a + b;
 		printf(", %d", n);
