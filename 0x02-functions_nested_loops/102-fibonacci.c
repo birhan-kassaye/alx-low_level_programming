@@ -8,10 +8,13 @@
 int main(void)
 {
 	int c;
+
 	int long a, b, n;
+
 
 	a = 1;
 	b = 2;
+
 	printf("%d, %d", a, b);
 	for (c = 0; c < 48; c++)
 	{
