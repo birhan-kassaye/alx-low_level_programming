@@ -9,8 +9,8 @@ int main(void)
 {
 	long int n1, n2, nt, en;
 
-	n1 = 0;
-	n2 = 0;
+	n1 = 1;
+	n2 = 2;
 	nt = en = 0;
 	while (nt <= 4000000)
 	{
