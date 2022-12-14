@@ -12,13 +12,13 @@ int main(void)
 	a = 1;
 	b = 2;
 	printf("%d, %d", a, b);
-	for (c = 1; c < 48; c++)
+	for (c = 1; c < 50; c++)
 	{
 		n = a + b;
 		printf(", %d", n);
 		a = b;
 		b = n;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
