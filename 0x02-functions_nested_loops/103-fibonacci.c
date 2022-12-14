@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	long int n1, n2, Tn, En;
+	long int n1, n2, nt, en;
 
 	n1 = 0;
 	n2 = 0;
-	Tn = En = 0;
-	while (Tn <= 4000000)
+	nt = en = 0;
+	while (nt <= 4000000)
 	{
-		Tn = n1 + n2;
+		nt = n1 + n2;
 		n1 = n2;
-		n2 = Tn;
+		n2 = nt;
 		if ((n1 % 2) == 0)
 		{
-			En += n1;
+			en += n1;
 		}
 	}
-	printf("%ld\n", En);
+	printf("%ld\n", en);
 	return (0);
 }
