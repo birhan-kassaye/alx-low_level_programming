@@ -14,7 +14,7 @@ void print_square(int size)
 	while (i < size)
 	{
 		j = 0;
-		while (j <= i)
+		while (j < size)
 		{
 			_putchar(35);
 			j++;
