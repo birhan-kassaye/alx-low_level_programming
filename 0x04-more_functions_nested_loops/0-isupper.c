@@ -8,7 +8,9 @@
 
 int _isupper(int c)
 {
-	if ((c >= 65) || (c <= 90))
+	char i = _putchar(c);
+
+	if ((i >= 'A') || (i <= 'Z'))
 	{
 		return (1);
 	}
