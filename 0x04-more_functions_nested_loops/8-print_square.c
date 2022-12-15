@@ -11,7 +11,7 @@ void print_square(int size)
 	int i, j;
 
 	i = 0;
-	while (i < n)
+	while (i < size)
 	{
 		j = 0;
 		while (j <= i)
