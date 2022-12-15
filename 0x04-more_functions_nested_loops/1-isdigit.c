@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - a function that checks for a digit (0 through 9)
- *
+ * @c: the number to be checked
  * Return: returns 1 if c is a digit, otherwise, 0
  */
 int _isdigit(int c)
@@ -16,19 +16,3 @@ int _isdigit(int c)
 		return (0);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
