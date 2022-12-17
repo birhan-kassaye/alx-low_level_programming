@@ -20,7 +20,10 @@ void print_triangle(int size)
 		{
 			_putchar(35);
 		}
-		_putchar('\n');
+		if (i <= size)
+		{
+			_putchar('\n');
+		}
 	}
 	_putchar('\n')
 }
