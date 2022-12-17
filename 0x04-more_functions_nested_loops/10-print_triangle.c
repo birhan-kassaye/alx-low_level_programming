@@ -8,11 +8,11 @@ include "main.h"
 
 void print_triangle(int size)
 {
-	int i, space, j;
+	int i, j;
 
 	for (i = 1; i <= size; i++)
 	{
-		for (space = 1; space <= size - i; space++)
+		for (j = 1; j <= size - i; j++)
 		{
 			_putchar(' ');
 		}
