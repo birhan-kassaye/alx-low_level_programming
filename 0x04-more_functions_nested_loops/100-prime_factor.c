@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (n % div != 0)
 		{
-			div++;
+			div = div + 1;
 		}
 		else
 		{
