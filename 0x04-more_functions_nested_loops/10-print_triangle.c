@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_triangle - a function that prints a triangle
@@ -15,14 +15,12 @@ void print_triangle(int size)
 		for (j = i; j < size; j++)
 		{
 			_putchar(' ');
-			_putchar(' ');
 		}
 		for (j = 0; j <= i; j++)
 		{
 			_putchar(35);
-			_putchar(' ');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
