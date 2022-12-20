@@ -2,8 +2,9 @@
 
 /**
  * *_strcpy - a function that copies the string pointed to by src
- *
- * Return: 
+ * @src: our source
+ * @dest: our destimation
+ * Return: the pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
