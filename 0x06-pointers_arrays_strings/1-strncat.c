@@ -2,7 +2,9 @@
 
 /**
  * *_strncat - a function that concatenates two strings
- *
+ * @dest: file destination
+ * @src: file source
+ * @n: the amount of bytes used from the source
  * Return: returns a pointer to the resulting string
  */
 
