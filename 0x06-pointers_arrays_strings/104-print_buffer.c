@@ -3,7 +3,8 @@
 
 /**
  * print_buffer - a function that prints a buffer
- *
+ * @b: the buffer
+ * @size: the size
  * Return: no return
  */
 
@@ -15,7 +16,7 @@ void print_buffer(char *b, int size)
 	{
 		printf("%08x: ", byte);
 
-		for (index = 0; index < 10; index++);
+		for (index = 0; index < 10; index++)
 		{
 			if ((index + byte) >= size)
 			{
