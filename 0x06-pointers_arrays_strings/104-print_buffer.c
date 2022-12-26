@@ -24,7 +24,7 @@ void print_buffer(char *b, int size)
 			}
 			else
 			{
-				printf("%2x", b[index + byte]);
+				printf("%02x", b[index + byte]);
 			}
 			if ((index % 2) != 0 && index != 0)
 			{
@@ -33,7 +33,7 @@ void print_buffer(char *b, int size)
 		}
 		for (index = 0; index < 10; index++)
 		{
-			if ((index + size) >= size)
+			if ((index + byte) >= size)
 			{
 				break;
 			}
@@ -45,15 +45,15 @@ void print_buffer(char *b, int size)
 			{
 				printf(".");
 			}
-			if (byte >= size)
-			{
-				continue;
-				printf("\n");
-			}
 		}
-		if (size <= 0)
+		if (byte >= size)
 		{
-			printf("\n");
+			continue;
 		}
+		printf("\n");
+	}
+	if (size <= 0)
+	{
+		printf("\n");
 	}
 }
