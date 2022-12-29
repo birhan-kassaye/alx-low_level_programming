@@ -8,26 +8,17 @@
 
 int main(void)
 {
-	long int n, div, largest_pf, a;
+	long int n, i;
 
-	div = 2;
 	n = 612852475143;
-	while (n != 0)
+	for (i = 2; i <= n; i++)
 	{
-		if (n % div != 0)
+		if (n % i == 0)
 		{
-			div = div + 1;
-		}
-		else
-		{
-			largest_pf = n;
-			a = n / div;
-			if (a == 1)
-			{
-				printf("%ld", largest_pf);
-				break;
-			}
+			n = n / i;
+			i--;
 		}
 	}
+	printf("%ld\n", i);
 	return (0);
 }
