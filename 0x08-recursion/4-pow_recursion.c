@@ -2,7 +2,8 @@
 
 /**
  * _pow_recursion - function that returns value of x raised to the power of y.
- *
+ * @x: the base.
+ * @y: exponent.
  * Return: returns 0 
  */
 
